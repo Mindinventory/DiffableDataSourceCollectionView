@@ -1,7 +1,7 @@
 # DiffableDataSourceCollectionView
 This UICollectionView Diffable Data Source project is very simple and easy to understand. In this project, we have used UICollectionViewDiffableDatasource and advance features which is introduced in iOS 14. 
 
-<img src="/Media/collectionview.mov">
+<img src="/diffable collectionview.gif">
 
 # Description
 
