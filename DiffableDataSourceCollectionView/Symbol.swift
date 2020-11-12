@@ -1,6 +1,6 @@
 //
 //  Symbol.swift
-//  DiffableCollectionView
+//  DiffableDataSourceCollectionView
 //
 //  Created by mac-00010 on 11/11/2020.
 //

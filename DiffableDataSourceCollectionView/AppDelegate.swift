@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  DiffableCollectionView
+//  DiffableDataSourceCollectionView
 //
 //  Created by mac-00010 on 10/11/2020.
 //

@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		5AAB49FF255BAEEB00C3EF34 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
-		5ADD8558255AC52E00C2037D /* DiffableCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiffableCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ADD8558255AC52E00C2037D /* DiffableDataSourceCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiffableDataSourceCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ADD855B255AC52E00C2037D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ADD855F255AC52E00C2037D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5ADD8562255AC52E00C2037D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		5ADD854F255AC52E00C2037D = {
 			isa = PBXGroup;
 			children = (
-				5ADD855A255AC52E00C2037D /* DiffableCollectionView */,
+				5ADD855A255AC52E00C2037D /* DiffableDataSourceCollectionView */,
 				5ADD8559255AC52E00C2037D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		5ADD8559255AC52E00C2037D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5ADD8558255AC52E00C2037D /* DiffableCollectionView.app */,
+				5ADD8558255AC52E00C2037D /* DiffableDataSourceCollectionView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5ADD855A255AC52E00C2037D /* DiffableCollectionView */ = {
+		5ADD855A255AC52E00C2037D /* DiffableDataSourceCollectionView */ = {
 			isa = PBXGroup;
 			children = (
 				5ADD855B255AC52E00C2037D /* AppDelegate.swift */,
@@ -61,18 +61,18 @@
 				5AAB49FF255BAEEB00C3EF34 /* Symbol.swift */,
 				5ADD8561255AC52E00C2037D /* Main.storyboard */,
 				5ADD8564255AC53000C2037D /* Assets.xcassets */,
-				5ADD8566255AC53000C2037D /* LaunchScreen.storyboard */,
 				5ADD8569255AC53000C2037D /* Info.plist */,
+				5ADD8566255AC53000C2037D /* LaunchScreen.storyboard */,
 			);
-			path = DiffableCollectionView;
+			path = DiffableDataSourceCollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5ADD8557255AC52E00C2037D /* DiffableCollectionView */ = {
+		5ADD8557255AC52E00C2037D /* DiffableDataSourceCollectionView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5ADD856C255AC53000C2037D /* Build configuration list for PBXNativeTarget "DiffableCollectionView" */;
+			buildConfigurationList = 5ADD856C255AC53000C2037D /* Build configuration list for PBXNativeTarget "DiffableDataSourceCollectionView" */;
 			buildPhases = (
 				5ADD8554255AC52E00C2037D /* Sources */,
 				5ADD8555255AC52E00C2037D /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = DiffableCollectionView;
+			name = DiffableDataSourceCollectionView;
 			productName = DiffableCollectionView;
-			productReference = 5ADD8558255AC52E00C2037D /* DiffableCollectionView.app */;
+			productReference = 5ADD8558255AC52E00C2037D /* DiffableDataSourceCollectionView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5ADD8553255AC52E00C2037D /* Build configuration list for PBXProject "DiffableCollectionView" */;
+			buildConfigurationList = 5ADD8553255AC52E00C2037D /* Build configuration list for PBXProject "DiffableDataSourceCollectionView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5ADD8557255AC52E00C2037D /* DiffableCollectionView */,
+				5ADD8557255AC52E00C2037D /* DiffableDataSourceCollectionView */,
 			);
 		};
 /* End PBXProject section */
@@ -287,13 +287,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DiffableCollectionView/Info.plist;
+				INFOPLIST_FILE = DiffableDataSourceCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = abc.DiffableCollectionView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DiffableDataSourceCollectionView;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,13 +305,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DiffableCollectionView/Info.plist;
+				INFOPLIST_FILE = DiffableDataSourceCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = abc.DiffableCollectionView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DiffableDataSourceCollectionView;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5ADD8553255AC52E00C2037D /* Build configuration list for PBXProject "DiffableCollectionView" */ = {
+		5ADD8553255AC52E00C2037D /* Build configuration list for PBXProject "DiffableDataSourceCollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5ADD856A255AC53000C2037D /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5ADD856C255AC53000C2037D /* Build configuration list for PBXNativeTarget "DiffableCollectionView" */ = {
+		5ADD856C255AC53000C2037D /* Build configuration list for PBXNativeTarget "DiffableDataSourceCollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5ADD856D255AC53000C2037D /* Debug */,
