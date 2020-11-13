@@ -14,5 +14,5 @@ In this project we have used UICollectionViewDiffableDatasource, list layout con
 
 # LICENSE!
 
-ComplexGridCollectionView is [MIT-licensed](/LICENSE).
+Advances in CollectionView is [MIT-licensed](/LICENSE).
 
