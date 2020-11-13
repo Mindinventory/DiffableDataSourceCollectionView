@@ -1,5 +1,5 @@
 # DiffableDataSourceCollectionView
-This UICollectionView Diffable Data Source project is very simple and easy to understand. In this project, we have used UICollectionViewDiffableDatasource and advance features which is introduced in iOS 14. 
+This UICollectionView Diffable Data Source project is very simple and easy to understand. In this project, we have used UICollectionViewDiffableDatasource and advance features which is introduced in iOS 14. More on [MEDIUM](https://medium.com/mindful-engineering/diffable-data-source-in-uicollectionview-3a1c5577b4de)
 
 <img src="/Media/diffable collectionview.gif">
 
